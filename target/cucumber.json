@@ -1,0 +1,378 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login as a customer",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14831823900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "XYZ Bank page is open",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.xyz_bank_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1775410400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "XYZ Bank page is open then Click customer login button",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.xyz_bank_page_is_open_then_click_customer_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2138190200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify customer page",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.verify_customer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 919428200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click dropdown list to select a customer name",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.click_dropdown_list_to_select_a_customer_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 199875300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customer name is selected verify Login button displayed",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.customer_name_is_selected_verify_login_button_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 342791900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Login button",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1251220200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify that Home page is displayed",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.verify_that_home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T01:03:04.731Z",
+        "line": 24,
+        "name": "Validate the Deposit Was successful on XYZ Bank one",
+        "description": "",
+        "id": "validation-that-the-deposit-was-successful;validate-the-deposit-was-successful-on-xyz-bank-one;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1127806800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Home page is displayed click deposit button",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.home_page_is_displayed_click_deposit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 418739800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify deposit button is displayed",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.verify_deposit_button_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 535669800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter deposit 1500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1500",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinition.XYZStepDefinition.enter_deposit(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 843475200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click deposit button to do a deposit",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.click_deposit_button_to_do_a_deposit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 519678300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify Deposit Successful is displayed",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.verify_deposit_successful_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@TestOne"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login as a customer",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13075900700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "XYZ Bank page is open",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.xyz_bank_page_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 868460900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "XYZ Bank page is open then Click customer login button",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.xyz_bank_page_is_open_then_click_customer_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1922882400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify customer page",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.verify_customer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 860981700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click dropdown list to select a customer name",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.click_dropdown_list_to_select_a_customer_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142909600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customer name is selected verify Login button displayed",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.customer_name_is_selected_verify_login_button_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238852300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Login button",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 818493500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify that Home page is displayed",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.verify_that_home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T01:03:29.950Z",
+        "line": 35,
+        "name": "Validate the Deposit Was successful on XYZ Bank two",
+        "description": "",
+        "id": "validation-that-the-deposit-was-successful;validate-the-deposit-was-successful-on-xyz-bank-two;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1427110400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Home page is displayed click deposit button",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.home_page_is_displayed_click_deposit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 373767700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify deposit button is displayed",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.verify_deposit_button_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 356778500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter deposit 1500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1500",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinition.XYZStepDefinition.enter_deposit(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 306810400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click deposit button to do a deposit",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.click_deposit_button_to_do_a_deposit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 395755200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify Deposit Successful is displayed",
+            "match": {
+              "location": "StepDefinition.XYZStepDefinition.verify_deposit_successful_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@TestTwo"
+          }
+        ]
+      }
+    ],
+    "name": "Validation that the Deposit Was successful",
+    "description": "",
+    "id": "validation-that-the-deposit-was-successful",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/XYZAssessment.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

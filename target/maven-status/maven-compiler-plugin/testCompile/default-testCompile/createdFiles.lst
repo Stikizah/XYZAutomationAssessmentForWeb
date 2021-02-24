@@ -1,0 +1,5 @@
+pagefactory\XYZCustomer.class
+pagefactory\XYZAccount.class
+pagefactory\XYZLogin.class
+StepDefinition\XYZStepDefinition.class
+TestRunner\runnerClass.class
